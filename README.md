@@ -29,8 +29,8 @@ split_before_each_uppercases("C6H12O6")  # ["C6", "H12", "O6"]
 
 ## Practice in Colab (optional)
 
-- [split_at_first_digit](https://colab.research.google.com/github/BIU-python-medicine-2027/ps4/blob/main/string_utils_split_at_first_digit.ipynb)
-- [split_before_each_uppercases](https://colab.research.google.com/github/BIU-python-medicine-2027/ps4/blob/main/string_utils_split_before_each_uppercases.ipynb)
+- <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/ps4/blob/main/string_utils_split_at_first_digit.ipynb" target="_blank" rel="noopener noreferrer">split_at_first_digit</a>
+- <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/ps4/blob/main/string_utils_split_before_each_uppercases.ipynb" target="_blank" rel="noopener noreferrer">split_before_each_uppercases</a>
 
 Notebooks are not graded — only `string_utils.py` counts.
 
