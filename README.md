@@ -32,7 +32,7 @@ split_before_each_uppercases("C6H12O6")  # ["C6", "H12", "O6"]
 - <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/ps4/blob/main/string_utils_split_at_first_digit.ipynb" target="_blank" rel="noopener noreferrer">split_at_first_digit</a>
 - <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/ps4/blob/main/string_utils_split_before_each_uppercases.ipynb" target="_blank" rel="noopener noreferrer">split_before_each_uppercases</a>
 
-Notebooks are not graded — only `string_utils.py` counts.
+Notebooks are not graded — only `string_utils.py` counts. Each notebook has a **self-check** cell that runs the same cases as the autograder (expected / got / hint) — run it before copying your code into `string_utils.py`.
 
 ## Submit
 
@@ -42,7 +42,17 @@ Notebooks are not graded — only `string_utils.py` counts.
 
 ## Grading — 10 points
 
+Points are split across cases; a failing case shows the exact input, expected value, your value, and a hint in the autograding **Details**.
+
 | Check | Points |
 | --- | ---: |
-| `split_at_first_digit` | 5 |
-| `split_before_each_uppercases` | 5 |
+| `split_at_first_digit` — short symbol (`H2`) | 1 |
+| `split_at_first_digit` — multi-digit (`He23`) | 1 |
+| `split_at_first_digit` — no digit → `1` (`Fe`, `F`) | 1 |
+| `split_at_first_digit` — explicit `Fe1` | 1 |
+| `split_at_first_digit` — long number / prefix | 1 |
+| `split_before_each_uppercases` — `H2OCO2NH3` | 1 |
+| `split_before_each_uppercases` — no uppercase | 1 |
+| `split_before_each_uppercases` — `NaCl2Fe` | 1 |
+| `split_before_each_uppercases` — `C6H12O6B` | 1 |
+| `split_before_each_uppercases` — empty string | 1 |
